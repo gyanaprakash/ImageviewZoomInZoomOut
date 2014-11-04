@@ -10,10 +10,12 @@
 		BC00051D1A0890F2000D54BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC00051C1A0890F2000D54BF /* main.m */; };
 		BC0005201A0890F2000D54BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC00051F1A0890F2000D54BF /* AppDelegate.m */; };
 		BC0005231A0890F2000D54BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0005221A0890F2000D54BF /* ViewController.m */; };
-		BC0005261A0890F2000D54BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0005241A0890F2000D54BF /* Main.storyboard */; };
 		BC0005281A0890F2000D54BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0005271A0890F2000D54BF /* Images.xcassets */; };
 		BC00052B1A0890F2000D54BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0005291A0890F2000D54BF /* LaunchScreen.xib */; };
 		BC0005371A0890F2000D54BF /* ImageviewZoomInZoomOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0005361A0890F2000D54BF /* ImageviewZoomInZoomOutTests.m */; };
+		BC0005411A08917E000D54BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0005401A08917E000D54BF /* QuartzCore.framework */; };
+		BC0005431A0891C8000D54BF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0005421A0891C8000D54BF /* ViewController.xib */; };
+		BC0005451A0891EE000D54BF /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BC0005441A0891EE000D54BF /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +36,14 @@
 		BC00051F1A0890F2000D54BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BC0005211A0890F2000D54BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BC0005221A0890F2000D54BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BC0005251A0890F2000D54BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC0005271A0890F2000D54BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BC00052A1A0890F2000D54BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BC0005301A0890F2000D54BF /* ImageviewZoomInZoomOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageviewZoomInZoomOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC0005351A0890F2000D54BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC0005361A0890F2000D54BF /* ImageviewZoomInZoomOutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageviewZoomInZoomOutTests.m; sourceTree = "<group>"; };
+		BC0005401A08917E000D54BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BC0005421A0891C8000D54BF /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		BC0005441A0891EE000D54BF /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC0005411A08917E000D54BF /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +71,7 @@
 				BC0005191A0890F2000D54BF /* ImageviewZoomInZoomOut */,
 				BC0005331A0890F2000D54BF /* ImageviewZoomInZoomOutTests */,
 				BC0005181A0890F2000D54BF /* Products */,
+				BC0005401A08917E000D54BF /* QuartzCore.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,7 +91,8 @@
 				BC00051F1A0890F2000D54BF /* AppDelegate.m */,
 				BC0005211A0890F2000D54BF /* ViewController.h */,
 				BC0005221A0890F2000D54BF /* ViewController.m */,
-				BC0005241A0890F2000D54BF /* Main.storyboard */,
+				BC0005421A0891C8000D54BF /* ViewController.xib */,
+				BC0005441A0891EE000D54BF /* images.jpeg */,
 				BC0005271A0890F2000D54BF /* Images.xcassets */,
 				BC0005291A0890F2000D54BF /* LaunchScreen.xib */,
 				BC00051A1A0890F2000D54BF /* Supporting Files */,
@@ -199,8 +206,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC0005261A0890F2000D54BF /* Main.storyboard in Resources */,
 				BC00052B1A0890F2000D54BF /* LaunchScreen.xib in Resources */,
+				BC0005451A0891EE000D54BF /* images.jpeg in Resources */,
+				BC0005431A0891C8000D54BF /* ViewController.xib in Resources */,
 				BC0005281A0890F2000D54BF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +252,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BC0005241A0890F2000D54BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC0005251A0890F2000D54BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BC0005291A0890F2000D54BF /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
