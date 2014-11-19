@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9C625C62-E8DE-4386-8FC6-E45FA7882700</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ImageviewZoomInZoomOut</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B30059822E04868C4FE5A11DCCD1D68BEE285979</key>
+		<string>https://github.com/gyanaprakash/ImageviewZoomInZoomOut.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ImageviewZoomInZoomOut.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B30059822E04868C4FE5A11DCCD1D68BEE285979</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gyanaprakash/ImageviewZoomInZoomOut.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B30059822E04868C4FE5A11DCCD1D68BEE285979</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B30059822E04868C4FE5A11DCCD1D68BEE285979</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ImageviewZoomInZoomOut</string>
+		</dict>
+	</array>
+</dict>
+</plist>
